@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --primary-color: rgba(133,0,0,.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.center {
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+}
+
+li, a, button {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .45);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links{
+    margin-top: -6%;
+    align-items: center;
+    list-style: none;
+    margin-left: 9%;
+    justify-content: center;
+}
+
+.nav__links li{
+    border-top: 1px solid rgba(0, 0, 0, .45);
+    border-bottom: 1px solid rgba(0, 0, 0, .45);
+    display: inline-block;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, .025);
+}
+
+.nav__links a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links a:hover{
+    color: var(--primary-color);
+    transition: all 0.3s ease 0s;
+}
+
+.band{
+    margin-top: 3.5vw;
+    width: 98.75vw;
+    background-color:rgba(0, 0, 0, .75);
+    position: relative;
+    color:rgba(255, 255, 255, .95);
+    font-size: 2.125vw;
+    margin-bottom: 0vw;
+}
+
+.contents{
+    width: 80vw;
+    background-color:rgba(0, 0, 0, .45);
+    margin-left: 8vw;
+}
+
+.contents > div {
+    margin: 25px;
+    margin-right: 0;
+    overflow: auto;
+}
+
+.crcimage{
+    width: 28vw;
+    height: 19vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.black-text{
+    color:rgba(0, 0, 0, .85);
+    text-align: justify;
+    width: 69vw;
+    font-size: 1.35vw;
+    padding-top: 2vw;
+}
+
+.box{
+    margin-left: 5vw;
+}
+
+.column__contents{
+    width: 80vw;
+    margin-left: 15vw;  
+    margin-top: 4vw;
+    padding-bottom: 5vw;
+}
+
+.column > bold, .column > a{
+    font-size: 1.5vw;
+}
+
+.column > bold{
+    font-weight: 700;
+    color:rgba(0, 0, 0, .75);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 35vw;
+ }
+
+  .container{
+    margin-top: 2%;
+    display: flex; 
+    background-color:rgba(0, 0, 0, .85);
+    width: 98.75vw;
+    flex-direction: row;
+  }
+
+  .footer__box{
+      margin-top: 2vw;
+      width: 33vw;
+      color:rgba(255, 255, 255, .95);
+      text-align: center;
+      padding-bottom: 4vw;
+  }
+
+  .footer__title{
+    color:rgba(255, 255, 255, .95);
+    font-size: 2.6vw;
+    font-weight: 700;
+  }
+
+  .footer__text{
+    color:rgba(255, 255, 255, .95);
+    font-size: 1.5vw;
+  }
+
+  .social-menu{
+      position:relative;
+      background-color:rgba(0, 0, 0, .85);
+      background-color:rgba(0, 0, 0, .85);
+      height: 2vw;;
+      width: 98.75vw;
+      margin-bottom: 2vw;
+  }
+
+  .social-menu ul {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0;
+      margin: 0;
+      display: flex;
+  }
+
+  .social-menu ul li {
+      list-style: none;
+      margin: 0 1vw;
+  }
+
+  .social-menu ul li .fa {
+      color: #000000;
+      font-size: 2vw;
+      line-height: 200%;
+      transition: .5s;
+  }
+
+  .social-menu ul li .fa:hover {
+      color: #ffffff;
+  }
+
+  .social-menu ul li a {
+      position: relative;
+      display: block;
+      width: 3.875vw;
+      height: 3.875vw;
+      border-radius: 50%;
+      background-color: white;
+      text-align: center;
+      transition: 0.5s;
+      transform: translate(0,0px);
+      box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .social-menu ul li a:hover {
+      transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+
+  .social-menu ul li:nth-child(1) a:hover {
+      background-color: #3b5999;
+  }
+
+  .social-menu ul li:nth-child(2) a:hover {
+      background-color: #cd201f;
+  }
+
+  /*.social-menu ul li:nth-child(3) a:hover {
+      background-color: #e4405f;
+  }
+
+  .social-menu ul li:nth-child(4) a:hover {
+      background-color: #55acee;
+  }
+
+  .social-menu ul li:nth-child(5) a:hover {
+      background-color: #0077B5;
+  }*/

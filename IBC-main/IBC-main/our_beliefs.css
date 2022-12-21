@@ -1,0 +1,21 @@
+#linkContainer, #introParagraph {
+    padding: 5.0vw;
+    padding-bottom: 0;
+}
+
+#introParagraph > img {
+    margin: 2.5vw;
+    margin-top: -1.4vw;
+    padding-right: 14vw;
+    float: right;
+    width: 28vw;
+    margin-left: 2vw;
+}
+
+.link {
+    color: black;
+}
+
+h1 {
+    font-size: 32px !important;
+}
